@@ -1,0 +1,26 @@
+/* Main styles */
+.main {
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+/* 正文样式 */
+.main-content p, .main-content li {
+    font-size: 20px !important;
+    line-height: 2; /* 调整为更舒适的行高 */
+    margin: 0.5em 0;
+}
+
+/* 标题样式 */
+h1 { font-size: 36px !important; font-weight: 700; }
+h2 { font-size: 30px !important; font-weight: 600; }
+h3 { font-size: 24px !important; font-weight: 600; }
+
+/* 专用副标题类（替代直接使用strong） */
+.subtitle {
+    font-size: 22px !important;
+    margin: 0.5em 0;
+    display: block;
+    color: #2C3E50;
+    font-weight: 600;
+}
